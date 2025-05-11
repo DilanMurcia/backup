@@ -78,7 +78,13 @@ function Provide-Manual-DownloadLink {
         "Adobe.AfterEffects" { Write-Host "Descarga manual de Adobe After Effects 2019: https://adobe.com/downloads" }
         "OBSProject.OBSStudio" { Write-Host "Descarga manual de OBS Studio: https://obsproject.com/download" }
         "Audacity.Audacity" { Write-Host "Descarga manual de Audacity: https://www.audacityteam.org/download/" }
-
+        "Kiritax64" { Write-Host "Descarga manual de Kiritax64: [Aquí iría la URL]" }
+        "REVisionEffects.OFX" { Write-Host "Descarga manual de RE:Vision Effects OFX: [Aquí iría la URL]" }
+        "HandBrake.HandBrake" { Write-Host "Descarga manual de HandBrake: https://handbrake.fr/downloads.php" }
+        "Cakewalk.Cakewalk" { Write-Host "Descarga manual de Cakewalk: https://www.bandlab.com/products/cakewalk" }
+        "Apple.MobileDeviceSupport" { Write-Host "Descarga manual de Apple Mobile Device Support: [Aquí iría la URL]" }
+        "Apple.Bonjour" { Write-Host "Descarga manual de Bonjour: [Aquí iría la URL]" }
+        
         # Herramientas de Seguridad
         "Avast.AvastFreeAntivirus" { Write-Host "Descarga manual de Avast: https://www.avast.com/es-es/index" }
         "Malwarebytes.Malwarebytes" { Write-Host "Descarga manual de Malwarebytes: https://www.malwarebytes.com/mwb-download" }
