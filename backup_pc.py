@@ -18,7 +18,7 @@ apps = {
 
     # Desarrollo
     "Visual Studio Code": "https://update.code.visualstudio.com/latest/win32-x64-user/stable",
-    "IntelliJ IDEA Community": "https://download.jetbrains.com/idea/ideaIC-2024.1.1.exe",
+    "IntelliJ IDEA Community": "https://download.jetbrains.com/idea/ideaIU-2025.1.1.1.exe",
     "Node.js LTS": "https://nodejs.org/dist/v24.0.1/node-v24.0.1-x64.msi",
     "Git": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe",
     "NVM for Windows": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe",
@@ -55,8 +55,11 @@ apps = {
     "Python 3": "https://www.python.org/ftp/python/3.12.3/python-3.12.3-amd64.exe",
     "OpenJDK 21": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3+9/OpenJDK21U-jdk_x64_windows_hotspot_21.0.3_9.msi",
 
-    # Música
-    "Audacity": "https://muse-cdn.com/Audacity_Installer_via_MuseHub.exe"
+    # Producción musical
+    "Audacity": "https://muse-cdn.com/Audacity_Installer_via_MuseHub.exe",
+
+    #Juegos
+    "League of Legends": "https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.la1.exe"
 }
 
 results = []
@@ -100,3 +103,10 @@ for app, status, detail in results:
 with open("resumen.log", "w", encoding="utf-8") as log:
     for app, status, detail in results:
         log.write(f"{status} {app} -> {detail}\n")
+    log.write("\nNO OLVIDAR INSTALAR LAS APPS MANUALES\n")
+    log.write("## Minecraft Java no Premium:\nhttps://tlauncher.org/\n")
+    log.write("## Minecraft Bedrock:\nhttps://www.youtube.com/watch?v=-3mwKc1EwCs\n")
+    log.write("https://drive.google.com/file/d/12L-I8W-8qgajqR58jfsK1w66jCO69sdQ/view?pli=1\n")
+    log.write("## IntelliJ IDEA Ultimate:\nhttps://www.youtube.com/watch?v=XG-pJcqOjQw\n")
+    log.write("## Adobe effects 2019:\nhttps://www.mediafire.com/file/u0izk6c02q6jx9o/AAECC19_v16.1.2.55.rar/file\n")
+    log.write("https://drive.usercontent.google.com/download?id=1xbGRRD9gJ4aXCH5TStb4s41TBBL-QmLK&export=download&authuser=0\n")
