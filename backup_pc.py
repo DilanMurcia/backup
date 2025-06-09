@@ -22,6 +22,7 @@ apps = {
     "Node.js LTS": "https://nodejs.org/dist/v24.0.1/node-v24.0.1-x64.msi",
     "Git": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe",
     "NVM for Windows": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe",
+    "Ollama":"https://ollama.com/download/OllamaSetup.exe",
 
     # Comunicación y productividad
     "Discord": "https://discord.com/api/download?platform=win",
