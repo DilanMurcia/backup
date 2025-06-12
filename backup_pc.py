@@ -22,7 +22,6 @@ apps = {
     "Node.js LTS": "https://nodejs.org/dist/v24.0.1/node-v24.0.1-x64.msi",
     "Git": "https://github.com/git-for-windows/git/releases/download/v2.44.0.windows.1/Git-2.44.0-64-bit.exe",
     "NVM for Windows": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe",
-    "Ollama":"https://ollama.com/download/OllamaSetup.exe",
 
     # Comunicación y productividad
     "Discord": "https://discord.com/api/download?platform=win",
@@ -39,19 +38,23 @@ apps = {
 
     # Infraestructura y bases de datos
     "Docker Desktop": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe",
+    "MongoDB Server": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.10-signed.msi",
     "MongoDB Compass": "https://downloads.mongodb.com/compass/mongodb-compass-1.46.2-win32-x64.exe",
-    "MySQL Workbench": "https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.36-winx64.msi",
+    "MySQL Community": "https://downloads.mysql.com/archives/get/p/25/file/mysql-installer-community-8.0.41.0.msi",
     "VirtualBox": "https://download.virtualbox.org/virtualbox/7.0.18/VirtualBox-7.0.18-162988-Win.exe",
 
     # Seguridad
     "Avast Antivirus": "https://files.avast.com/iavs9x/avast_free_antivirus_setup_online.exe",
-    "Malwarebytes": "https://downloads.malwarebytes.com/file/mb-windows",
 
     # Utilidades
     "7zip": "https://www.7-zip.org/a/7z2301-x64.exe",
     "WinDirStat": "https://github.com/windirstat/windirstat/releases/download/release/v2.2.2/WinDirStat-x64.msi",
     "Process Explorer": "https://live.sysinternals.com/procexp.exe",
-
+    "Autoruns":"https://download.sysinternals.com/files/Autoruns.zip",
+    "TCPView":"https://download.sysinternals.com/files/TCPView.zip",
+    "Process Monitor":"https://download.sysinternals.com/files/ProcessMonitor.zip",
+    "AccessChk":"https://download.sysinternals.com/files/AccessChk.zip",
+    "RAMMap":"https://download.sysinternals.com/files/RAMMap.zip",
     # Lenguajes
     "Python 3": "https://www.python.org/ftp/python/3.12.3/python-3.12.3-amd64.exe",
     "OpenJDK 21": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3+9/OpenJDK21U-jdk_x64_windows_hotspot_21.0.3_9.msi",
