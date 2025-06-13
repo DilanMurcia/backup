@@ -38,8 +38,7 @@ apps = {
 
     # Infraestructura y bases de datos
     "Docker Desktop": "https://desktop.docker.com/win/main/amd64/Docker%20Desktop%20Installer.exe",
-    "MongoDB Server": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.10-signed.msi",
-    "MongoDB Compass": "https://downloads.mongodb.com/compass/mongodb-compass-1.46.2-win32-x64.exe",
+    "MongoDB Community": "https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-8.0.10-signed.msi",
     "MySQL Community": "https://downloads.mysql.com/archives/get/p/25/file/mysql-installer-community-8.0.41.0.msi",
     "VirtualBox": "https://download.virtualbox.org/virtualbox/7.0.18/VirtualBox-7.0.18-162988-Win.exe",
 
@@ -64,7 +63,6 @@ apps = {
     "Speccy":"https://speccy-system-information.uptodown.com/windows/descargar",
     
     #Instalar Drivers AMD CPU/GPU
-    "Eliminar Drivers":"https://www.guru3d.com/getdownload/2c1b2414f56a6594ffef91236a87c0e976d52e0519bd313846bab016c2f20c7c4d6ce7dfe19a0bc843da8d448bbb670058b0c9ee9a26f5cf49bc39c97da070e6eb314629af3da2d24ab0413917f73b946419b5af447da45cefb517a0840ad3003abff4f9d5fe7828bbbb910ee270b704333a0283584211b2623dc4ca585fe82d4774d04b4af4b257b930215e13b2364fde129ef8d1f274e01f97997bd9cd142bafb48198bca595eb3c0ca399",
     "Drivers Windows":"https://drivers.amd.com/drivers/installer/25.10/whql/amd-software-adrenalin-edition-25.6.1-minimalsetup-250602_web.exe",
     
     # Lenguajes
@@ -82,7 +80,7 @@ results = []
 
 for app, url in apps.items():
     try:
-        r = requests.get(url, allow_redirects=True)
+        r = requests.get(url, allow_redirects=True, timeout=15)
         r.raise_for_status()
 
         # Intentar extraer nombre de archivo
