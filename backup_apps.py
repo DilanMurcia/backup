@@ -12,17 +12,10 @@ def sanitize_filename(filename):
 
 apps = {
     # Navegadores
+    "Brave Browser": "https://laptop-updates.brave.com/latest/winx64",
+    "Firefox": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=es-ES",
     "Google Chrome": "https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi",
 
-    # Comunicación y productividad
-    "Discord": "https://discord.com/api/download?platform=win",
-    "Spotify": "https://download.scdn.co/SpotifySetup.exe",
-    "Notion": "https://www.notion.so/desktop/windows/download",
-    "WhatsApp": "https://get.microsoft.com/installer/download/9NKSQGP7F2NH?cid=website_cta_psi",
-    "Telegram Desktop": "https://telegram.org/dl/desktop/win64",
-    
-    # Utilidades
-    "WinRAR": "https://www.win-rar.com/fileadmin/winrar-versions/winrar-x64-611.exe" 
 }
 
 results = []
@@ -66,10 +59,4 @@ for app, status, detail in results:
 with open("resumen.log", "w", encoding="utf-8") as log:
     for app, status, detail in results:
         log.write(f"{status} {app} -> {detail}\n")
-    log.write("\nNO OLVIDAR INSTALAR LAS APPS MANUALES\n")
-    log.write("## Minecraft Java no Premium:\nhttps://tlauncher.org/\n")
-    log.write("## Minecraft Bedrock:\nhttps://www.youtube.com/watch?v=-3mwKc1EwCs\n")
-    log.write("https://drive.google.com/file/d/12L-I8W-8qgajqR58jfsK1w66jCO69sdQ/view?pli=1\n")
-    log.write("## IntelliJ IDEA Ultimate:\nhttps://www.youtube.com/watch?v=XG-pJcqOjQw\n")
-    log.write("## Adobe effects 2019:\nhttps://www.mediafire.com/file/u0izk6c02q6jx9o/AAECC19_v16.1.2.55.rar/file\n")
-    log.write("https://drive.usercontent.google.com/download?id=1xbGRRD9gJ4aXCH5TStb4s41TBBL-QmLK&export=download&authuser=0\n")
+ 
