@@ -58,7 +58,7 @@ apps = {
     "RAMMap":"https://download.sysinternals.com/files/RAMMap.zip",
     
     #Analizar Hardware
-    "CrystalDiskInfo":"https://cfhcable.dl.sourceforge.net/project/crystaldiskinfo/9.6.3/CrystalDiskInfo9_6_3.exe?viasf=1",
+    "CrystalDiskInfo":"https://apps.microsoft.com/detail/XP8K4RGX25G3GM?hl=es-CO&gl=CO&ocid=pdpshare",
     "OCCT":"https://www.ocbase.com/download/edition:Personal/os:Windows",
     "Speccy":"https://speccy-system-information.uptodown.com/windows/descargar",
     
@@ -70,7 +70,7 @@ apps = {
     "OpenJDK 21": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.3+9/OpenJDK21U-jdk_x64_windows_hotspot_21.0.3_9.msi",
 
     # Producción musical
-    "Audacity": "https://muse-cdn.com/Audacity_Installer_via_MuseHub.exe",
+    "MuseHub": "https://muse-cdn.com/Audacity_Installer_via_MuseHub.exe",
 
     #Juegos
     "League of Legends": "https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.la1.exe"
