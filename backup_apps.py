@@ -12,10 +12,10 @@ def sanitize_filename(filename):
 
 apps = {
     # Navegadores
-    "Brave Browser": "https://laptop-updates.brave.com/latest/winx64",
-    "Firefox": "https://download.mozilla.org/?product=firefox-latest&os=win64&lang=es-ES",
     "Google Chrome": "https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi",
 
+    #Utilidades
+    "winrar": "https://www.rarlab.com/rar/winrar-x64-602.exe",
 }
 
 results = []
