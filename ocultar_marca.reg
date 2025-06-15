@@ -1,8 +1,5 @@
 Windows Registry Editor Version 5.00
 
-[HKEY_CURRENT_USER\Control Panel\Desktop]
-"PaintDesktopVersion"=dword:00000000
+[HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies\System]
+"EnableActiveProbing"=dword:00000000
 
-[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Windows]
-"DisplayNotActivated"=dword:00000000
-"DisplayVersion"=dword:00000000
