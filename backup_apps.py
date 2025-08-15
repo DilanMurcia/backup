@@ -11,16 +11,21 @@ def sanitize_filename(filename):
     return re.sub(r'[<>:"/\\|?*\n\r\t]', '_', filename)
 
 apps = {
-    # Navegadores
-    "Google Chrome": "https://dl.google.com/chrome/install/GoogleChromeStandaloneEnterprise64.msi",
-    "Opera": "https://download3.operacdn.com/pub/opera/desktop/102.0.4880.52/win/Opera_102.0.4880.52_Setup_x64.exe",
- 
-    #Instalar Drivers CPU/GPU
-
-    #Instalar Drivers Placa Base
-    
-    #Juegos
-    "League of Legends": "https://lol.secure.dyn.riotcdn.net/channels/public/x/installer/current/live.la1.exe"
+    # Controladores de la placa base A520M-HDV de Rita
+    #Para gestionar el procesador y la placa base.
+    "AMD chipset driver ver:4.7.13.2243":"https://download.asrock.com/Drivers/CPU/Chipset(v4.7.13.2243).zip",
+    #Para el sonido analógico.
+    "Realtek high definition audio driver": "https://download.asrock.com/Drivers/All/Audio/Realtek_Audio(v6.0.9384.1_WHQL_RTK).zip",
+    #Para el internet por cable.
+    "Realtek Lan driver":"https://download.asrock.com/Drivers/All/LAN/Realtek_LAN(v10.060.0615.2022).zip",
+    #Para tus gráficos integrados Vega.
+    "AMD Graphics Driver (ver:22.20.2.220623)":"https://download.asrock.com/Drivers/VGA/AMD_VGA(v22.20.2.220623).zip",
+    #Soporte por si tienes un disco duro NVMe.
+    "AMD NVMe_DID":"https://download.asrock.com/Drivers/AMD/SATA/AM4_SATA_Floppy_DID(v9.3.0.296).zip",
+    #Extras recomendados para la placa base.
+    "ASRock Motherboard Utility ver:3.0.504":"https://download.asrock.com/Utility/MotherboardUtility/MotherboardUtility(v3.0.504).zip",
+    "Restart to UEFI ver:1.0.15":"https://download.asrock.com/Utility/Others/RestartToUEFI(v1.0.15).zip",
+    "APP Shop ver:2.0.0.6":"https://download.asrock.com/Utility/Others/APPShop(v2.0.0.6).zip"
 }
 
 results = []
@@ -63,4 +68,6 @@ for app, status, detail in results:
 # Guardar resumen en archivo
 with open("resumen.log", "w", encoding="utf-8") as log:
     for app, status, detail in results:
-        log.write(f"{status} {app} -> {detail}\n")
+        log.write(f"{status} {app} -> {detail}\n") 
+
+    log.write("No olvides instalar el instalador automatico de graficos de AMD:\nhttps://www.amd.com/en/support/download/drivers.html")
