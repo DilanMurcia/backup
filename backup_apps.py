@@ -24,6 +24,7 @@ apps = {
     "NVM for Windows": "https://github.com/coreybutler/nvm-windows/releases/download/1.1.12/nvm-setup.exe",
 
     # Comunicación y productividad
+    "Voicemeeter":"https://download.vb-audio.com/Download_CABLE/VoicemeeterSetup_v2122.zip",
     "Discord": "https://discord.com/api/download?platform=win",
     "Spotify": "https://download.scdn.co/SpotifySetup.exe",
     "Notion": "https://www.notion.so/desktop/windows/download",
